@@ -1,24 +1,15 @@
-## ADS 509: Topic Modeling
+## Topic Modeling with Brown University Corpus
 
-Topic modeling is a fundamental text analysis technique since asking "What are these documents about?" is a fundamental question. In this assignment you will build an NMF model, an LDA topic model, and an LSA topic model. You will compare the resulting topic allocations. In this assignment we will work with the Brown University corpus in `nltk`. The documents are in categories already, so you can compare your models to the official classification as well.
+This repository contains code and resources for performing topic modeling using the Brown University corpus from the `nltk` library. The project explores various topic modeling techniques, including Non-Negative Matrix Factorization (NMF), Latent Dirichlet Allocation (LDA), and Latent Semantic Analysis (LSA). The goal of this work is to examine how each model identifies topics within the corpus and compare the resulting topic allocations.
 
-## Instructions
+### Overview
 
-1. Create a repository under your GitHub account from this template: https://github.com/roozbehsadeghian/ads-tm-topic-modeling. Instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Make your repository public or add your instructor’s Github account as a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).   
-1. The notebook “Topic Models.ipynb” holds detailed instructions for the assignment. In that notebook you are asked to do the following: 
-    
-    *  Run pre-written code exploring the Brown corpus.
-    *  Fit a NMF model and interpret it.
-    *  Fit an LSA model and interpret it.
-    *  Fit an LDA model and interpret it. 
+Topic modeling is a crucial text analysis technique aimed at answering the question: "What are these documents about?" This project leverages three popular methods to explore the topics in the Brown University corpus, which already has documents categorized into topics. This allows for direct comparison between model-generated topics and the official classifications.
 
-1. Work through the notebook, performing the steps asked of you. Use and extend the code from the chapters of your textbook.
+### Methods Used
 
-## Assignment Materials
-  
-* Topic Modeling Repository
+The project focuses on three different topic modeling techniques:
 
-Deliverables:
-
-* When you have finished your code, print your notebook as a PDF and upload this document to Blackboard. 
-* Commit your code and push the changes to GitHub so your instructor has access to the ipynb notebook file and any other code you create. 
+1. **Non-Negative Matrix Factorization (NMF)**: A matrix factorization method used to identify topics by breaking down the term-document matrix.
+2. **Latent Semantic Analysis (LSA)**: A technique that applies singular value decomposition (SVD) to reveal patterns in the relationships between terms and documents.
+3. **Latent Dirichlet Allocation (LDA)**: A generative statistical model that assigns documents to multiple topics based on word distributions.
